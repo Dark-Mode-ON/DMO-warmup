@@ -9,6 +9,7 @@ class TestClass:
 		maciej = "maciej"
 		assert "maciej" == maciej
 
-	def test_domino_nocek(self):
+	@staticmethod
+	def test_domino_nocek():
 		domino = "domino"
 		assert "domino" == domino
